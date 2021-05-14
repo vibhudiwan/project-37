@@ -97,6 +97,7 @@ function draw() {
     feed.show();
     addFood.show();
     dog.addImage(sadDog);
+    text("I'am not hungry",200,200);
   }
   if (gameState==="Playing"){
     textSize(25);
